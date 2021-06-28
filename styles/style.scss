@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import './media.scss';
+
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$very-dark-cyan: hsl(179, 100%, 13%);
+
+$trans-white: hsla(0, 0%, 100%, 0.75);
+$light-gray: hsl(0, 0%, 95%);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+}
+
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    @include flexCenter();
+    background-color: $light-gray;
+    height: 100vh;
+}
+
+.main-section {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5em 2em;
+}
+
+.card {
+    width: 300px;
+    height: 450px;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    img {
+        width: 60px;
+    }
+    h1 {
+        font-family: 'Big Shoulders Display', cursive;
+        text-transform: uppercase;
+        color: $light-gray;
+        font-size: 2.5em;
+        margin-top: 1em;
+    }
+    p {
+        font-family: 'Lexend Deca', sans-serif;
+        color: $trans-white;
+        font-size: 0.9em;
+        margin-top: 1em;
+        line-height: 1.7;
+    }
+    a {
+        font-family: 'Lexend Deca', sans-serif;
+        text-decoration: none;
+        border: 2px solid $light-gray;
+        border-radius: 30px;
+        padding: 0.75em 2em;
+        background-color: $light-gray;
+        align-self: flex-start;
+    }
+}
+
+.sedan {
+    background-color: $bright-orange;
+    a {
+        color: $bright-orange;
+        &:hover {
+            background-color: $bright-orange;
+            color: $light-gray;
+        }
+    }
+}
+
+.suv {
+    background-color: $dark-cyan;
+    a {
+        color: $dark-cyan;
+        &:hover {
+            background-color: $dark-cyan;
+            color: $light-gray;
+        }
+    }
+}
+
+.luxury {
+    background-color: $very-dark-cyan;
+    a {
+        color: $very-dark-cyan;
+        &:hover {
+            background-color: $very-dark-cyan;
+            color: $light-gray;
+        }
+    }
+}
+
+.attribution {
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1em;
+    background-color: $very-dark-cyan;
+    color: $light-gray;
+    font-family: 'Lexend Deca', sans-serif;
+    a {
+        text-decoration: none;
+        color: $bright-orange;
+        &:hover {
+            color: $light-gray;
+        }
+    }
+}

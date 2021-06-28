@@ -1,0 +1,11 @@
+@media (max-width: 800px) {
+    body {
+        .container {
+            height: auto;
+        }
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+}

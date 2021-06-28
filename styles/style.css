@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+@media (max-width: 800px) {
+  body .container {
+    height: auto;
+  }
+  .main-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f2f2f2;
+  height: 100vh;
+}
+
+.main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 5em 2em;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  padding: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card img {
+  width: 60px;
+}
+
+.card h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-size: 2.5em;
+  margin-top: 1em;
+}
+
+.card p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9em;
+  margin-top: 1em;
+  line-height: 1.7;
+}
+
+.card a {
+  font-family: 'Lexend Deca', sans-serif;
+  text-decoration: none;
+  border: 2px solid #f2f2f2;
+  border-radius: 30px;
+  padding: 0.75em 2em;
+  background-color: #f2f2f2;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.sedan {
+  background-color: #e38826;
+}
+
+.sedan a {
+  color: #e38826;
+}
+
+.sedan a:hover {
+  background-color: #e38826;
+  color: #f2f2f2;
+}
+
+.suv {
+  background-color: #006970;
+}
+
+.suv a {
+  color: #006970;
+}
+
+.suv a:hover {
+  background-color: #006970;
+  color: #f2f2f2;
+}
+
+.luxury {
+  background-color: #004241;
+}
+
+.luxury a {
+  color: #004241;
+}
+
+.luxury a:hover {
+  background-color: #004241;
+  color: #f2f2f2;
+}
+
+.attribution {
+  padding: 0.5em;
+  text-align: center;
+  font-size: 1em;
+  background-color: #004241;
+  color: #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #e38826;
+}
+
+.attribution a:hover {
+  color: #f2f2f2;
+}
+/*# sourceMappingURL=style.css.map */
