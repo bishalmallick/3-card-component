@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL](https://github.com/bishalmallick/stats-preview-card)
-- Live Site URL: [URL](https://bishalmallick.github.io/stats-preview-card/)
+- Solution URL: [URL](https://github.com/bishalmallick/3-card-component)
+- Live Site URL: [URL](https://bishalmallick.github.io/3-card-component/)
 
 ## My process
 
